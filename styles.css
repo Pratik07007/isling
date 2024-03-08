@@ -1,0 +1,81 @@
+@font-face {
+  font-family: title;
+  src: url(./Barlow_Condensed/BarlowCondensed-Medium.ttf);
+}
+@font-face {
+  font-family: content;
+  src: url(./Barlow_Condensed/BarlowCondensed-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #181818;
+}
+.page1 {
+  background-color: #eeeeee;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page1__aside {
+  display: flex;
+  flex-direction: column;
+  align-items: cenetr;
+  justify-content: center;
+  padding: 0 119px 0 275px;
+}
+.page1__title {
+  font-size: 4vw;
+}
+.page1__desc {
+  padding-top: 0.5vw;
+  font-size: 1.5vw;
+  white-space: wrap;
+  text-align: left;
+}
+.page1__main {
+  display: flex;
+  align-items: end;
+  height: 100vh;
+}
+.page1__img {
+  width: 45vw;
+  height: 40vw;
+  padding-right: 165px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.page2__main {
+  padding-top: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.page2__cards {
+  display: flex;
+  gap: 2vw;
+  flex-wrap: wrap;
+}
+.page2__cards img {
+  height: 20vw;
+  width: 20vw;
+}
+.page2__info {
+  display: flex;
+}
+.page2__info__left {
+  background: greenyellow;
+}
+.page2__info__left img {
+  height: 650px;
+  width: 550px;
+}
+.page2__info__right {
+  background-color: red;
+}

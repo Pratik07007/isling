@@ -187,3 +187,30 @@
   background-color: pink;
   height: 100vh;
 }
+footer{
+  background-color: #eeeeee;
+  width: 100vw;
+  display: flex;  
+  align-items: center;
+  justify-content: space-around;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2vw;
+}
+.footer__main{
+  padding:5vw 0vw 5vw 0vw;
+  display: flex;
+  gap: 5vw;
+  align-items: center;
+}
+.footer__input{
+  width: 15vw;
+  height: 3vw;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  font-size: 1.5vw;
+}
